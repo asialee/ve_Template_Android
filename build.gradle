@@ -10,6 +10,9 @@ buildscript {
         maven {
             url 'https://artifact.bytedance.com/repository/byteX/'
         }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
         mavenCentral()
         google()
     }
@@ -17,6 +20,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
         maven {
             url 'https://artifact.bytedance.com/repository/Volcengine/'
         }
