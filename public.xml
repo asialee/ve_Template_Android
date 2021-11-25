@@ -4,4 +4,13 @@
     <public type="attr" name="layout_constraintLeft_toLeftOf" id="0x7f040001"/>
     <public type="attr" name="layout_constraintTop_toTopOf" id="0x7f040002"/>
     <public type="attr" name="layout_constraintRight_toRightOf" id="0x7f040003"/>
+
+    <public type="attr" name="colorOnPrimary" id="0x7f040004"/>
+    <public type="attr" name="colorOnSecondary" id="0x7f040005"/>
+    <public type="attr" name="colorPrimary" id="0x7f040006"/>
+    <public type="attr" name="colorPrimaryVariant" id="0x7f040007"/>
+    <public type="attr" name="colorSecondaryVariant" id="0x7f040008"/>
+    <public type="attr" name="colorSecondary" id="0x7f040009"/>
+    <public type="string" name="host_string" id="0x7f100000"/>
+    <public type="style" name="Theme.MaterialComponents.DayNight.DarkActionBar" id="0x7f110000"/>
 </resources>

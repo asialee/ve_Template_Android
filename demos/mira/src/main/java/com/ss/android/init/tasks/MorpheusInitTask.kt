@@ -21,7 +21,7 @@ import com.volcengine.mars.app.LaunchApplication
 class MorpheusInitTask : IInitTask() {
 
     companion object {
-        var HOST_ADDRESS = "https://poc-api.vemarsdev.com/api/plugin/config/v2/"
+        var HOST_ADDRESS = "https://pri-poc-api.vemarsdev.com/api/plugin/config/v2/"
     }
 
     override fun run() {

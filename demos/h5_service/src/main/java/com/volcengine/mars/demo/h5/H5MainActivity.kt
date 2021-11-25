@@ -15,8 +15,8 @@ import kotlinx.android.synthetic.main.activity_h5_main.openExampleOnlineActivity
 import java.util.regex.Pattern
 
 class H5MainActivity : AppCompatActivity() {
-    private val POC_URL = "https://poc-api.vemarsdev.com/"
-    private val POC_JSB_URL = "https://poc-api.vemarsdev.com/jsbridge/client/query"
+    private val POC_URL = "https://pri-poc-api.vemarsdev.com/"
+    private val POC_JSB_URL = "https://pri-poc-api.vemarsdev.com/jsbridge/client/query"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +26,7 @@ class H5MainActivity : AppCompatActivity() {
                 .setJsbServiceUrl(POC_JSB_URL)
                 .enableDebug(true)
                 .setDeviceId("7135843788734")
-                .setOfflineResourceAccessKey("d3d71ae74f5383ec33b4fd85b298f50f")
+                .setOfflineResourceAccessKey("f2145ecc7d1a502d5575ed2fa2c36162")
                 .setOfflineResourceUrlPrefixes(getCachePrefixes())
         )
         setContentView(R.layout.activity_h5_main)
